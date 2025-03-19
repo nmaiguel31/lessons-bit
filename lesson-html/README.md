@@ -8,7 +8,10 @@
         - Attributes
         - Value
         - Generics
-        - Semantic
+        * Semantic
+            - Structure
+            - Substructure
+            - Content
 * HyperText
     - Links
 
