@@ -35,9 +35,6 @@ para las sublistas se usan los "*"
     - Repositorio
     - README file
 
-* Uso de adjuntar links
-[Link al D1](https://d1.com.co/)
-
 
 ## Projects
 1. Crear un sitio web acerca de mi
