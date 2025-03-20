@@ -37,3 +37,9 @@ para las sublistas se usan los "*"
 
 * Uso de adjuntar links
 [Link al D1](https://d1.com.co/)
+
+
+## Projects
+1. Crear un sitio web acerca de mi
+    - Crear un repositorio con el nombre: bit-website
+    - Crear el archivo README (TITULO, DESCRIPCION Y AUTOR)
