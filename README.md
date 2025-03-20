@@ -40,3 +40,4 @@ para las sublistas se usan los "*"
 1. Crear un sitio web acerca de mi
     - Crear un repositorio con el nombre: bit-website
     - Crear el archivo README (TITULO, DESCRIPCION Y AUTOR)
+    - Estructurar la pagina web poniendole las etiquetas al index.html
