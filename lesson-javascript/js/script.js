@@ -35,10 +35,27 @@ console.log(nombreVariable4)
 
 /*
 // Asignacion
+
+let resultado = '';
 let miVariable1 = "Nicolas";
 let miVariable2 = 'Maiguel';
+
+miVariable1 = 10
+miVariable2 = 5
+resultado = 3
+
+// resultado = resultado + miVariable1
+resultado += miVariable1;
+resultado -= miVariable1;
+resultado *= miVariable1;
+resultado /= miVariable1;
+resultado %= miVariable1;
+resultado **= miVariable1;
+
+
 console.log('miVariable 1:',miVariable1);
 console.log('miVariable 2:',miVariable2);
+console.log('resultado:',resultado);
 
 // Concatenacion
 const nombreCompleto = (miVariable1+miVariable2);
@@ -88,6 +105,30 @@ resultado = miVariable1 >= miVariable2;
 console.log('resultado >=:',resultado);
 */
 
+// Logicos:
+/*
+Condicionales:
+&& = and
+|| = or
+! = not
+
+let resultado = '';
+let miVariable1 = 10;
+let miVariable2 = 5;
+
+resultado = miVariable1 > miVariable2  && miVariable1 > 1
+resultado = miVariable1 > miVariable2  && miVariable1 > 100
+
+resultado = miVariable1 > miVariable2  || miVariable1 > 1
+resultado = miVariable1 > miVariable2  || miVariable1 > 100
+
+resultado = !true
+resultado = !false
+
+console.log('miVariable 1:',miVariable1);
+console.log('miVariable 2:',miVariable2);
+console.log('resultado:',resultado);
+*/
 
 /* TIPOS DE DATOS PRIMITIVOS */
 // undefined
@@ -231,4 +272,84 @@ console.log(miVariable1,igualMenor,miVariable2,"=", resultado);
 
 resultado = miVariable1 >= miVariable2;
 console.log(miVariable1,igualMayor,miVariable2,"=", resultado);
+*/
+
+// Control de flujo
+/* Condicionales
+
+1. if
+Se ejecuta solo si la condición es verdadera.
+
+let edad = 20;
+
+if (edad >= 18) {
+  console.log("Eres mayor de edad.");
+}
+
+✅ Solo muestra el mensaje si la edad es 18 o más.
+
+🔹 2. if + else
+else se ejecuta si la condición no se cumple.
+
+let edad = 16;
+
+if (edad >= 18) {
+  console.log("Puedes votar.");
+} else {
+  console.log("No puedes votar aún.");
+}
+
+✅ Se evalúa una de las dos opciones.
+
+🔹 3. if + else if + else
+Sirve cuando tienes varias condiciones diferentes.
+
+let nota = 75;
+
+if (nota >= 90) {
+  console.log("Excelente");
+} else if (nota >= 70) {
+  console.log("Aprobado");
+} else {
+  console.log("Reprobado");
+}
+
+✅ Evalúa de arriba a abajo y ejecuta solo la primera condición verdadera.
+
+🔹 4. switch
+Útil cuando comparas una misma variable con varios posibles valores.
+
+let dia = "martes";
+
+switch (dia) {
+  case "lunes":
+    console.log("Inicio de semana");
+    break;
+  case "martes":
+    console.log("Segundo día");
+    break;
+  case "viernes":
+    console.log("¡Por fin viernes!");
+    break;
+  default:
+    console.log("Día no registrado");
+}
+
+✅ Compara dia con varios casos y ejecuta el bloque que coincida.
+
+🔹 5. Operador ternario (condición ? verdadero : falso)
+Es una forma corta de escribir un if/else.
+
+let esMiCumple = true;
+
+let mensaje = esMiCumple ? "¡Feliz cumpleaños!" : "No es tu cumple hoy.";
+console.log(mensaje);
+
+✅ Si esMiCumple es true, muestra el primer mensaje; si no, el segundo.
+*/
+
+/*
+1) crear un repositorio nuevo, nombre cualquiera
+2) irse a la pagina projecteuler.net
+3) te registras y le das a archives y realizas los ejercicios. desde el 1 hasta todo los que puedas.
 */
